@@ -57,3 +57,16 @@ int count(char a[], char b[])
 	return res;
 	
 }
+
+int starts_with(char a[], char b[])
+{
+	for (int i = 0; i < strlen(b); i++)
+	{
+		if (a[i] != b[i])
+		{
+			return 0;
+		}
+		
+	}
+	return 1;
+}
