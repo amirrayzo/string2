@@ -66,7 +66,21 @@ int starts_with(char a[], char b[])
 		{
 			return 0;
 		}
-		
+	}
+	return 1;
+}
+
+int ends_with(char a[], char b[])
+{
+	int n = strlen(a) - 1;
+
+	for (int i = strlen(b) - 1; i >= 0; i--)
+	{
+		if (a[n] != b[i])
+		{
+			return 0;
+		}
+		n -= 1;
 	}
 	return 1;
 }

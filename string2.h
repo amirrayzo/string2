@@ -4,5 +4,6 @@
 int is_valid(char a[], char b[]);
 int count(char a[], char b[]);
 int starts_with(char a[], char b[]);
+int ends_with(char a[], char b[]);
 
 #endif
