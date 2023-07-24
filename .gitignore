@@ -1,3 +1,4 @@
 main.c
 Makefile
 build/
+.vscode
